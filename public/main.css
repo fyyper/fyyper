@@ -1,0 +1,133 @@
+#carouselExampleIndicators {
+    height: calc(100vh - 76px);
+    overflow: hidden;
+    position: relative;
+}
+
+.item-1 {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/photo1.png');
+}
+
+.item-2 {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/photo2.png');
+}
+
+.comming-img {
+    height: 200px;
+}
+
+header {
+    background-color: #e6e4e2;
+}
+
+.btn-submit {
+    padding: 0;
+    width: 50px;
+    margin-top: 10px;
+    border: 1px solid #b0a9a9;
+    border-radius: 5px;
+    color: #d8d5d5;
+    margin-left: 126px
+}
+
+label {
+    margin: 0;
+    color: #d8d5d5;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #b0a9a9;
+    border-radius: 5px;
+    color: #d8d5d5;
+    margin-bottom: 16px
+}
+
+.form-container {
+    padding: 130px 0 0 0;
+}
+
+.comming-container {
+    padding: 130px 0 0 0
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    padding-right: 60px !important;
+}
+
+.content-pane {
+    top: 0;
+    height: calc(100vh - 76px);
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #28a745;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.hamburguesa {
+    right: 0 !important;
+    justify-content: flex-end;
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+    nav {
+        height: 106px !important;
+    }
+
+    .logo {
+        padding-left: 16%;
+    }
+
+    .logo-img {
+        height: 80px;
+    }
+
+    #carouselExampleIndicators {
+        height: calc(100vh - 106px);
+    }
+
+    .content-pane {
+        height: calc(100vh - 106px);
+    }
+
+    .comming-container {
+        top: 0;
+    }
+
+    .form-container {
+        top: 32%;
+        left: 13%;
+    }
+
+    .comming-container {
+        right: 60%;
+        top: -14%;
+    }
+}
